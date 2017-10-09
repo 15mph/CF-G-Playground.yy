@@ -1,0 +1,66 @@
+/* style.css */
+body{
+  text-align: center;
+  background: #D3D3D3;
+  color: green;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: blue;
+  font-weight: lighter;
+  font-size: 45px;
+}
+h2 {
+  font-family: Courier;
+  color: blue;
+  font-weight: lighter;
+  font-size: 35px;
+}
+a {
+  color: yellow;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#banner{
+  background-image: url("https://images.unsplash.com/photo-1472214103451-9374bd1c798e?dpr=1&auto=compress,format&fit=crop&w=2850&h=&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  text-align: center;
+  margin: 0px;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1{
+  color: white;
+  font-size: 50px;
+}
+#banner p{
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer {
+  padding:20px;
+  background-color: rgb(50, 50, 50);
+  color: lightgrey;
+}
+#footer a{
+  color: white;
+  font-size: 25px;
+}
+
+#footer a:hover{
+  color: grey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
